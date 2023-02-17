@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "fields": [
+      {
+        "field": "API_KEY",
+        "displayName": "Meraki API Key",
+        "type": "String",
+        "minLength": 4,
+        "maxLength": 60,
+        "required": true,
+        "description": "Meraki API Key",
+        "example": "NPfWE2p1H7yBzIXnRB",
+        "helpSection": "Login to your Meraki account \n Go to Dashboard -> Edit Profile \n To the right side, you should see the personal access token generated associated with your user account"
+      },
+      {
+        "field": "AUTH_TYPE",
+        "displayName": "Meraki Auth Type",
+        "type": "String",
+        "minLength": 4,
+        "maxLength": 60,
+        "required": true,
+        "description": "Meraki API Auth Type",
+        "default": "API_KEY",
+        "example": "API_KEY",
+        "helpSection": "https://developer.cisco.com/meraki/api-latest/"
+      },
+      {
+        "field": "SERVER_URL",
+        "displayName": "Meraki Server URL",
+        "type": "String",
+        "minLength": 4,
+        "maxLength": 60,
+        "required": true,
+        "description": "Meraki API Server URL https://developer.cisco.com/meraki/api-latest/",
+        "default": "",
+        "example": "",
+        "helpSection": "Use the default value https://developer.cisco.com/meraki/api-latest/"
+      }
+    ]
+  }
