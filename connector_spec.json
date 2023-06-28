@@ -6,7 +6,7 @@
         "displayName": "Meraki API Key",
         "type": "String",
         "minLength": 4,
-        "maxLength": 60,
+        "maxLength": 100,
         "required": true,
         "description": "Meraki API Key",
         "example": "NPfWE2p1H7yBzIXnRB",
@@ -32,8 +32,8 @@
         "maxLength": 60,
         "required": true,
         "description": "Meraki API Server URL https://developer.cisco.com/meraki/api-latest/",
-        "default": "",
-        "example": "",
+        "default": "https://api.meraki.com/api/v1",
+        "example": "https://api.meraki.com/api/v1",
         "helpSection": "Use the default value https://developer.cisco.com/meraki/api-latest/"
       }
     ]
