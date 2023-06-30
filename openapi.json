@@ -21,7 +21,7 @@
           "200": {
             "content": {
               "application/json": {
-                "examples": {
+                "example": {
                   "response": {
                     "value": {
                       "authentication": {
@@ -43,9 +43,8 @@
                       "name": "Miles Meraki"
                     }
                   }
-                },
+                  },
                 "schema": {
-                  "items": {
                   "properties": {
                     "authentication": {
                       "description": "Authentication info",
@@ -107,8 +106,8 @@
                       "type": "string"
                     }
                   },
-                  "type": "array"
-                }
+                  "type": "object"
+                
               }
             }
             },
@@ -8612,7 +8611,7 @@
           "200": {
             "content": {
               "application/json": {
-                "examples": {
+                "example": {
                   "response": {
                     "value": [
                       {
@@ -8743,7 +8742,7 @@
           "201": {
             "content": {
               "application/json": {
-                "examples": {
+                "example": {
                   "response": {
                     "value": {
                       "api": {
@@ -8957,7 +8956,7 @@
           "200": {
             "content": {
               "application/json": {
-                "examples": {
+                "example": {
                   "response": {
                     "value": {
                       "api": {
@@ -9093,7 +9092,7 @@
           "200": {
             "content": {
               "application/json": {
-                "examples": {
+                "example": {
                   "response": {
                     "value": {
                       "api": {
