@@ -20,8 +20,8 @@
         "maxLength": 60,
         "required": true,
         "description": "Meraki API Auth Type",
-        "default": "API_KEY",
-        "example": "API_KEY",
+        "default": "BEARER_TOKEN",
+        "example": "BEARER_TOKEN",
         "helpSection": "https://developer.cisco.com/meraki/api-latest/"
       },
       {
