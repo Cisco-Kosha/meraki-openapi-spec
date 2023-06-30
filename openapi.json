@@ -45,6 +45,7 @@
                   }
                 },
                 "schema": {
+                  "items": {
                   "properties": {
                     "authentication": {
                       "description": "Authentication info",
@@ -109,6 +110,7 @@
                   "type": "object"
                 }
               }
+            }
             },
             "description": "Successful operation"
           }
