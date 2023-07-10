@@ -2,7 +2,7 @@
 
 Cisco Meraki is a cloud-managed networking solution that provides centralized control and management of network infrastructure. Meraki simplifies network deployment, monitoring, and security, allowing for efficient management of networks across multiple locations through a user-friendly web interface.
 
-The Kosha Cisco Meraki connector enables you to perform REST API operations from the Cisco Meraki in your Kosha workflow or custom application. Using the Kosha Cisco Meraki connector, you can directly access Cisco Meraki to:
+The Kosha Cisco Meraki connector enables you to perform REST API operations from the Cisco Meraki API in your Kosha workflow or custom application. Using the Kosha Cisco Meraki connector, you can directly access Cisco Meraki to:
 
 * Create a network
 * Get traffic analysis for a network
